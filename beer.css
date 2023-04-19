@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('custom-fonts/lato-bold-webfont.woff2');
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FBF1CC;
+}
+
+
+/* FRONT PAGE */
+
+.front__page{
+    padding: 5px;
+   }
+.upper-part{
+    margin: 36% 0% 36% 0%;
+    vertical-align: middle;
+    
+}
+.logo{
+    display: block;
+    width: 66%;
+    margin: 0 auto;
+    
+}
+.middle-part{
+    background-image: url("image/home-bg.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
+/* .btn{
+    width: 100%;
+    margin: 0px auto;
+} */
+.login-button{
+    padding: 15px 0px 15px 0px;
+    width: 224px;
+    background-color: #ff858b;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    font-size: 17px;
+    margin:172px 75px 15px 75px;
+    font-family:'Lato Bold' ;
+    font-weight:bold;
+    
+}
+.new-account{
+    padding: 15px 0px 15px 0px;
+    width: 224px;
+    background-color: #780e33;
+    color: white;
+    border: 2px solid #ff858c ;
+    border-radius: 35px;
+    font-size: 17px;
+    margin:0px 75px 15px 75px;
+    font-family:'Lato Bold' ;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+    
+
+}
+.lower-part{
+    margin: 76px 19px 17px 19px;
+}
+
+
