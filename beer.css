@@ -63,12 +63,17 @@ body{
     font-family:'Lato Bold' ;
     letter-spacing: 1px;
     word-spacing: 2px;
-    
-    
-
 }
 .lower-part{
     margin: 76px 19px 17px 19px;
 }
+.lower-text{
+    color: white;
+    font-family: 'Lato Bold';
+    word-spacing: 2px;
+    margin-bottom: -9px;
+    font-size: 17px;
+}
+
 
 
