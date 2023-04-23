@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Lato Bold';
     src: url('custom-fonts/lato-bold-webfont.woff2');
+    font-family: 'Lato Regular';
+    src: url('custom-fonts/lato-regular-webfont.woff');
 }
 
 
@@ -17,7 +19,7 @@ body{
     padding: 5px;
    }
 .upper-part{
-    margin: 36% 0% 36% 0%;
+    margin: 36% 0% 31% 0%;
     vertical-align: middle;
     
 }
@@ -31,7 +33,7 @@ body{
     background-image: url("image/home-bg.png");
     background-repeat:no-repeat;
     width: 100%;
-    height: 450px;
+    height: 480px;
     border-radius: 10px;
 }
 /* .btn{
@@ -65,15 +67,82 @@ body{
     word-spacing: 2px;
 }
 .lower-part{
-    margin: 76px 19px 17px 19px;
+    margin: 76px 0px 0px 0px;
 }
 .lower-text{
     color: white;
     font-family: 'Lato Bold';
     word-spacing: 2px;
     margin-bottom: -9px;
+    margin-left: 48px;
     font-size: 17px;
+
+}
+/* LOGIN */
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.name {
+    margin-top: 100px;
+    font-family: 'lato Regular';
+    color:#913c5a;
+    letter-spacing: 4px;
+    margin: 140px 0px 8px 40px;
+
 }
 
+.username, .password{
+    width: 85%;
+    margin-left: 19px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+
+}
+.username::placeholder{
+    font-size: 18px;
+}
+.psw{
+    font-family: 'lato Regular';
+    color:#913c5a;
+    letter-spacing: 4px;
+    margin: 19px 0px 8px 40px;
+
+
+}
+.password::placeholder{
+    font-size: 18px;
+}
+.lower-text{
+    color: white;
+    font-size: 16px;
+    font-family: 'lato Regular';
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.login-link{
+    color: white;
+}
+.lower-part{
+    position: relative;
+}
+.lower-button{
+    position: absolute;
+    top: 31px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    background-color: #ff858b;
+    border-top-left-radius:25px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lato Bold';
+}
 
 
