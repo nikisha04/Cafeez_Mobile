@@ -9,7 +9,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #FBF1CC;
+   
 }
 
 
@@ -79,6 +79,9 @@ body{
 
 }
 /* LOGIN */
+.login-body{ background-color: #FBF1CC;
+
+}
 
 .login-input{
     display: flex;
@@ -145,4 +148,177 @@ body{
     font-family: 'Lato Bold';
 }
 
+/* THIRD PAGE */
+.container{
+    position: relative;
+}
+.heading{
+    height: 91px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #1B4919;
+}
+.carls{
+    margin: 0px auto;
+    display: block;
 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #997476;
+    border-bottom: 4px solid #c23869;
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 19px;
+}
+.navbar-search{
+    position: relative;
+
+
+}
+.Search-placeholder{
+    border: none;
+    border-radius: 25px;
+    background-color: #e4e4e4;
+    height: 29px;
+    width: 193px;
+  }
+.Search-placeholder::placeholder{
+    font-size: 17px;
+    padding-left:28px ;
+}  
+.search-dark{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+}
+.navbar-text{
+    font-size: 18px;
+    font-family:'Lato Bold';
+    letter-spacing: 1px;
+    color: #707070;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #780E33;
+    height: 75px; 
+    border-top-left-radius: 25px;
+    position: absolute;
+    width: 100%;
+    top:650px;
+
+}
+.main{
+    padding: 10px 19px 10px 15px;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCEAEB;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.carls-image{
+    height: 50px;
+
+}
+.liquor-detail{
+    margin-left: -43px;
+    margin-top: 8px;
+}
+.carlsberg{
+    color: #a89495;
+    margin-bottom: 0px;
+    font-family: 'lato Regular';
+    font-weight: bold;
+    font-size: 12px;
+}
+.liter{
+    color: #a89495;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.offer{
+    color: #c53e6a;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'lato bold';
+}
+.order-button{
+    display: flex;
+    margin-right: -62px;
+    
+
+}
+.plus{
+    border: 1px solid #d1d2d2;
+    height: 24px;
+    width: 14%;
+    border-top-left-radius:25px;
+    border-bottom-left-radius: 25px;
+    background-color: white;
+    color: #b91c53;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 2px 3px 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.bottle-number{
+    width: 20%;
+    height: 25px;
+    border: 1px solid #d1d2d2;
+    font-size: 12px;
+}
+.minus{
+    border: 1px solid #d1d2d2;
+    height: 24px;
+    width: 14%;
+    border-top-right-radius:25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    color: #b91c53;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 2px 3px 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.container-2{
+    background-color: #f8c9cb;
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+
+}
+.footer-text{
+    text-decoration: none;
+
+}
+.footer-text{
+    margin-top: 3px;
+    text-align: center;
+   
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    text-align: start;
+    font-size: 14px;
+    font-family: 'lato bold';
+    font-weight: bold;
+   
+
+}
