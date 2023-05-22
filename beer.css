@@ -3,6 +3,8 @@
     src: url('custom-fonts/lato-bold-webfont.woff2');
     font-family: 'Lato Regular';
     src: url('custom-fonts/lato-regular-webfont.woff');
+    font-family: 'lato semibold';
+    src: url('lato-semibold-webfont.woff');
 }
 
 
@@ -78,7 +80,42 @@ body{
     font-size: 17px;
 
 }
-/* LOGIN */
+
+/* || FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #780E33;
+    height: 75px; 
+    border-top-left-radius: 25px;
+    position: absolute;
+    width: 100%;
+    top:650px;
+
+}
+
+.footer-text{
+    text-decoration: none;
+
+}
+.footer-text{
+    margin-top: 3px;
+    text-align: center;
+   
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    text-align: start;
+    font-size: 14px;
+    font-family: 'lato bold';
+    font-weight: bold;
+   
+
+}
+/* || LOGIN- SECOND PAGE */
 .login-body{ background-color: #FBF1CC;
 
 }
@@ -148,7 +185,7 @@ body{
     font-family: 'Lato Bold';
 }
 
-/* THIRD PAGE */
+/* || THIRD PAGE */
 .container{
     position: relative;
 }
@@ -199,18 +236,6 @@ body{
     letter-spacing: 1px;
     color: #707070;
 }
-.footer{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
-    background-color: #780E33;
-    height: 75px; 
-    border-top-left-radius: 25px;
-    position: absolute;
-    width: 100%;
-    top:650px;
-
-}
 .main{
     padding: 10px 19px 10px 15px;
 }
@@ -231,7 +256,7 @@ body{
     margin-left: -43px;
     margin-top: 8px;
 }
-.carlsberg{
+.drinks-name{
     color: #a89495;
     margin-bottom: 0px;
     font-family: 'lato Regular';
@@ -302,23 +327,92 @@ body{
     padding: 8px;
 
 }
-.footer-text{
-    text-decoration: none;
+
+/* || ALL PROM'S- FOURTH PAGE */
+
+.upper-part1{
+    display: flex;
+    background-color: #FBF1CC;
+    align-items: end;
+    height: 100px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid  #d8808f;
+    
+}
+.upper-part1-left{
+    width: 33%;
+    color:#86857f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lato bold';
+    letter-spacing: 1px;
+    padding:0px 15px 0px 12px;
+}
+.upper-part1-logo{
+    width: 33%;
+}
+.logo-1{
+    width: 129px;
+}
+.upper-part1-right{
+    width: 33%;
+    color: #d8808f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lato bold';
+    letter-spacing: 1px;
+    padding-left: 25px;
 
 }
-.footer-text{
-    margin-top: 3px;
-    text-align: center;
-   
+.navbar1,.navbar{
+    border-bottom: none;
+    
 }
-.footer-link{
-    text-decoration: none;
+.navbar1{
+    border-bottom: 4px solid #c23869;
+}
+.navbar-buttons{
+    padding: 0px 0px 9px 19px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-1{
+    width: 85px;
+    height: 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color:#c23869 ;
+    border: none;
+}
+.button-2{
+    background-color: #E4E4E4;
+    width: 82px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: #9c9c9c;
+    border: none;
+
+}
+.container-2{
+    position: relative;
+}
+
+.promo{
+    width: 50px;
+    border-radius: 25px;
+    background-color: #C8426E;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
     color: white;
     letter-spacing: 1px;
-    text-align: start;
-    font-size: 14px;
-    font-family: 'lato bold';
-    font-weight: bold;
-   
-
+    padding: 1px 3px 1px 7px;  
+    position: absolute;
+    bottom: 89px;  
 }
+
+
+
