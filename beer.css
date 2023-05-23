@@ -15,10 +15,11 @@ body{
 }
 
 
-/* FRONT PAGE */
+/* || FRONT PAGE */
 
 .front__page{
     padding: 5px;
+    background-color: #FBF1CC;
    }
 .upper-part{
     margin: 36% 0% 31% 0%;
@@ -431,7 +432,6 @@ body{
     background-color: #FCEAEB;
     display: flex;
     justify-content: space-between;
-    
     border-radius: 10px;
     align-items: center;
     margin-bottom: 10px;
@@ -440,5 +440,22 @@ body{
 
 }
 
+/* || THANKING PAGE SIXTH-PAGE */
 
+.thanking-text{
+    color: #780E33;
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Lato Bold';
+    font-weight: bold;
+    width: 67%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.upper-part-thank{
+    margin: 36% 0% 20% 0%;
+    vertical-align: middle;
+}
+
+/* || ENGAGEMENT SEVENTH-PAGE */
 
