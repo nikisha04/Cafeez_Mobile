@@ -54,6 +54,7 @@ body{
     margin:172px 75px 15px 75px;
     font-family:'Lato Bold' ;
     font-weight:bold;
+    cursor: pointer;
     
 }
 .new-account{
@@ -68,6 +69,7 @@ body{
     font-family:'Lato Bold' ;
     letter-spacing: 1px;
     word-spacing: 2px;
+    cursor: pointer;
 }
 .lower-part{
     margin: 76px 0px 0px 0px;
@@ -184,6 +186,7 @@ body{
     font-size: 25px;
     font-weight: bold;
     font-family: 'Lato Bold';
+    cursor: pointer;
 }
 
 /* || THIRD PAGE */
@@ -232,7 +235,7 @@ body{
     top: 7px;
 }
 .navbar-text{
-    font-size: 18px;
+    font-size: 16px;
     font-family:'Lato Bold';
     letter-spacing: 1px;
     color: #707070;
@@ -373,7 +376,7 @@ body{
     border-bottom: 4px solid #c23869;
 }
 .navbar-buttons{
-    padding: 0px 0px 9px 19px;
+    padding: 0px 0px 9px 8px;
     display: flex;
     justify-content: space-between;
 }
@@ -382,19 +385,21 @@ body{
     height: 30px;
     border-radius: 25px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     background-color:#c23869 ;
     border: none;
+    cursor: pointer;
 }
 .button-2{
     background-color: #E4E4E4;
     width: 82px;
     height: 30px;
     border-radius: 25px;
-    font-size: 17px;
+    font-size: 14px;
     color: #9c9c9c;
     border: none;
+    cursor: pointer;
 
 }
 .container-2{
@@ -458,4 +463,78 @@ body{
 }
 
 /* || ENGAGEMENT SEVENTH-PAGE */
+.form{
+    padding: 17px 20px 0px 32px;
+}
+.upper-right{
+    width: 33%;
+    color: #86857f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lato bold';
+    padding-left: 25px;
 
+}
+.upper-section{
+    align-items: center;
+}
+.accname{
+    margin: 0px 0px 8px 0px;
+}
+.placeholder-accname , .upper-sec-psw{
+    width: 90%;
+    height: 34px;
+    font-size: 17px;
+    color: #707070;
+    border: 1px solid #7070705e;
+    border-radius: 10px;
+    padding-left: 17px;
+    
+}
+.placeholder-accname::placeholder{
+    color: #7070705e;
+}
+.upper-sec-psw::placeholder{
+    letter-spacing: 1px;
+    font-size: 19px;
+
+
+}
+
+.change-btn{
+    width: 155px;
+    height: 35px;
+    border-radius: 25px;
+    border: NONE;
+    color: white;
+    background-color: #FF858B;
+    font-size: 17px;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+
+@media  screen and (min-width: 1024px) {
+    .upper-part{
+        margin: 10% 0% 10% 0%;
+    }
+    .middle-part{
+      background-position: center center;
+      position: relative;
+    }
+    .front-button{
+        position: absolute;
+        left: 38%;
+    }
+    .login-button{
+        margin-bottom: 45px;
+    }
+    .lower-part{
+        position: absolute;
+        left: 44%;
+        top: 59%;
+    }
+
+}
