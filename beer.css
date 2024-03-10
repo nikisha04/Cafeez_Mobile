@@ -1,23 +1,28 @@
 @font-face {
     font-family: 'Lato Bold';
     src: url('custom-fonts/lato-bold-webfont.woff2');
+    font-family: 'Lato Regular';
+    src: url('custom-fonts/lato-regular-webfont.woff');
+    font-family: 'lato semibold';
+    src: url('lato-semibold-webfont.woff');
 }
 
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #FBF1CC;
+   
 }
 
 
-/* FRONT PAGE */
+/* || FRONT PAGE */
 
 .front__page{
     padding: 5px;
+    background-color: #FBF1CC;
    }
 .upper-part{
-    margin: 36% 0% 36% 0%;
+    margin: 36% 0% 31% 0%;
     vertical-align: middle;
     
 }
@@ -31,7 +36,7 @@ body{
     background-image: url("image/home-bg.png");
     background-repeat:no-repeat;
     width: 100%;
-    height: 450px;
+    height: 480px;
     border-radius: 10px;
 }
 /* .btn{
@@ -49,6 +54,7 @@ body{
     margin:172px 75px 15px 75px;
     font-family:'Lato Bold' ;
     font-weight:bold;
+    cursor: pointer;
     
 }
 .new-account{
@@ -63,17 +69,472 @@ body{
     font-family:'Lato Bold' ;
     letter-spacing: 1px;
     word-spacing: 2px;
+    cursor: pointer;
 }
 .lower-part{
-    margin: 76px 19px 17px 19px;
+    margin: 76px 0px 0px 0px;
 }
 .lower-text{
     color: white;
     font-family: 'Lato Bold';
     word-spacing: 2px;
     margin-bottom: -9px;
+    margin-left: 48px;
     font-size: 17px;
+
+}
+
+/* || FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #780E33;
+    height: 75px; 
+    border-top-left-radius: 25px;
+    position: absolute;
+    width: 100%;
+    top:650px;
+
+}
+
+.footer-text{
+    text-decoration: none;
+
+}
+.footer-text{
+    margin-top: 3px;
+    text-align: center;
+   
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    text-align: start;
+    font-size: 14px;
+    font-family: 'lato bold';
+    font-weight: bold;
+   
+
+}
+/* || LOGIN- SECOND PAGE */
+.login-body{ background-color: #FBF1CC;
+
+}
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.name {
+    margin-top: 100px;
+    font-family: 'lato Regular';
+    color:#913c5a;
+    letter-spacing: 4px;
+    margin: 140px 0px 8px 40px;
+
+}
+
+.username, .password{
+    width: 85%;
+    margin-left: 19px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+
+}
+.username::placeholder{
+    font-size: 18px;
+}
+.psw{
+    font-family: 'lato Regular';
+    color:#913c5a;
+    letter-spacing: 4px;
+    margin: 19px 0px 8px 40px;
+
+
+}
+.password::placeholder{
+    font-size: 18px;
+}
+.lower-text{
+    color: white;
+    font-size: 16px;
+    font-family: 'lato Regular';
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.login-link{
+    color: white;
+}
+.lower-part{
+    position: relative;
+}
+.lower-button{
+    position: absolute;
+    top: 31px;
+    width: 100%;
+    height: 75px;
+    border: none;
+    background-color: #ff858b;
+    border-top-left-radius:25px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lato Bold';
+    cursor: pointer;
+}
+
+/* || THIRD PAGE */
+.container{
+    position: relative;
+}
+.heading{
+    height: 91px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #1B4919;
+}
+.carls{
+    margin: 0px auto;
+    display: block;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #997476;
+    border-bottom: 4px solid #c23869;
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 19px;
+}
+.navbar-search{
+    position: relative;
+
+
+}
+.Search-placeholder{
+    border: none;
+    border-radius: 25px;
+    background-color: #e4e4e4;
+    height: 29px;
+    width: 193px;
+  }
+.Search-placeholder::placeholder{
+    font-size: 17px;
+    padding-left:28px ;
+}  
+.search-dark{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+}
+.navbar-text{
+    font-size: 16px;
+    font-family:'Lato Bold';
+    letter-spacing: 1px;
+    color: #707070;
+}
+.main{
+    padding: 10px 19px 10px 15px;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCEAEB;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.carls-image{
+    height: 50px;
+
+}
+.liquor-detail{
+    margin-left: -43px;
+    margin-top: 8px;
+}
+.drinks-name{
+    color: #a89495;
+    margin-bottom: 0px;
+    font-family: 'lato Regular';
+    font-weight: bold;
+    font-size: 12px;
+}
+.liter{
+    color: #a89495;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.offer{
+    color: #c53e6a;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'lato bold';
+}
+.order-button{
+    display: flex;
+    margin-right: -62px;
+    
+
+}
+.plus{
+    border: 1px solid #d1d2d2;
+    height: 24px;
+    width: 14%;
+    border-top-left-radius:25px;
+    border-bottom-left-radius: 25px;
+    background-color: white;
+    color: #b91c53;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 2px 3px 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.bottle-number{
+    width: 20%;
+    height: 25px;
+    border: 1px solid #d1d2d2;
+    font-size: 12px;
+}
+.minus{
+    border: 1px solid #d1d2d2;
+    height: 24px;
+    width: 14%;
+    border-top-right-radius:25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    color: #b91c53;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 2px 3px 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.container-2{
+    background-color: #f8c9cb;
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+
+}
+
+/* || ALL PROM'S- FOURTH PAGE */
+
+.upper-part1{
+    display: flex;
+    background-color: #FBF1CC;
+    align-items: end;
+    height: 100px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid  #d8808f;
+    
+}
+.upper-part1-left{
+    width: 33%;
+    color:#86857f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lato bold';
+    letter-spacing: 1px;
+    padding:0px 15px 0px 12px;
+}
+.upper-part1-logo{
+    width: 33%;
+}
+.logo-1{
+    width: 129px;
+}
+.upper-part1-right{
+    width: 33%;
+    color: #d8808f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lato bold';
+    letter-spacing: 1px;
+    padding-left: 25px;
+
+}
+.navbar1,.navbar{
+    border-bottom: none;
+    
+}
+.navbar1{
+    border-bottom: 4px solid #c23869;
+}
+.navbar-buttons{
+    padding: 0px 0px 9px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-1{
+    width: 85px;
+    height: 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color:#c23869 ;
+    border: none;
+    cursor: pointer;
+}
+.button-2{
+    background-color: #E4E4E4;
+    width: 82px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #9c9c9c;
+    border: none;
+    cursor: pointer;
+
+}
+.container-2{
+    position: relative;
+}
+
+.promo{
+    width: 50px;
+    border-radius: 25px;
+    background-color: #C8426E;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    padding: 1px 3px 1px 7px;  
+    position: absolute;
+    bottom: 89px;  
+}
+/* || CART FIFTH-PAGE */
+
+.header-cart{
+    background-color: #780E33;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align:center;
+    letter-spacing: 3px;
+    padding-top: 70px;
+
+
+}
+.container-cart{
+    background-color: #FCEAEB;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+
+
+}
+
+/* || THANKING PAGE SIXTH-PAGE */
+
+.thanking-text{
+    color: #780E33;
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Lato Bold';
+    font-weight: bold;
+    width: 67%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.upper-part-thank{
+    margin: 36% 0% 20% 0%;
+    vertical-align: middle;
+}
+
+/* || ENGAGEMENT SEVENTH-PAGE */
+.form{
+    padding: 17px 20px 0px 32px;
+}
+.upper-right{
+    width: 33%;
+    color: #86857f;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lato bold';
+    padding-left: 25px;
+
+}
+.upper-section{
+    align-items: center;
+}
+.accname{
+    margin: 0px 0px 8px 0px;
+}
+.placeholder-accname , .upper-sec-psw{
+    width: 90%;
+    height: 34px;
+    font-size: 17px;
+    color: #707070;
+    border: 1px solid #7070705e;
+    border-radius: 10px;
+    padding-left: 17px;
+    
+}
+.placeholder-accname::placeholder{
+    color: #7070705e;
+}
+.upper-sec-psw::placeholder{
+    letter-spacing: 1px;
+    font-size: 19px;
+
+
+}
+
+.change-btn{
+    width: 155px;
+    height: 35px;
+    border-radius: 25px;
+    border: NONE;
+    color: white;
+    background-color: #FF858B;
+    font-size: 17px;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
 }
 
 
+@media  screen and (min-width: 1024px) {
+    .upper-part{
+        margin: 10% 0% 10% 0%;
+    }
+    .middle-part{
+      background-position: center center;
+      position: relative;
+    }
+    .front-button{
+        position: absolute;
+        left: 38%;
+    }
+    .login-button{
+        margin-bottom: 45px;
+    }
+    .lower-part{
+        position: absolute;
+        left: 44%;
+        top: 59%;
+    }
 
+}
